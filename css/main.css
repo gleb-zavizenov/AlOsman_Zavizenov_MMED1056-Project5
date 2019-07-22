@@ -490,7 +490,9 @@
     margin-top:40px;
     display: flex;
     width:100%;
-    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
     align-items: center;
   }
 
@@ -504,6 +506,7 @@
     background-color: black;
     width:278px;
     height:215px;
+    margin-left:10px;
   }
 
   .footer-field{
@@ -750,6 +753,7 @@ footer{
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   width:100%;
 }
 
