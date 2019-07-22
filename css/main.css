@@ -1,0 +1,235 @@
+.hidden{
+  display: none;
+}
+
+main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Header section styling */
+
+.header-container{
+  width:290px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header{
+  width:100%;
+  height:70px;
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo{
+  width:50px;
+  height:50px;
+  background-color: black;
+}
+
+.header-hamburger{
+  width:30px;
+  height:20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hamburger-line{
+  width:30px;
+  height:5px;
+  background-color: grey;
+}
+
+/* Hero section styling */
+.hero{
+  height:200px;
+  width:100%;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-container{
+  width:290px;
+  height:100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.hero-block{
+  width:50%;
+  height:100%;
+  display: flex;
+  align-items: center;
+}
+
+.hero-left{
+  justify-content: flex-flex-start;
+}
+
+.hero-right{
+  justify-content: flex-end;
+}
+
+.hero-block-inside{
+  background-color: grey;
+  width:130px;
+  height:70px;
+}
+
+/* Projects section styling */
+.projects{
+  width:100%;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-container{
+  width:290px;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects-intro{
+  margin-top:60px;
+  width:100%;
+  height:400px;
+  background-color: grey;
+  margin-bottom: 60px;
+}
+
+.projects-title{
+  width:100%;
+  height:60px;
+  background-color:grey;
+  margin-bottom:25px;
+}
+
+.project-theme{
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  margin-bottom:100px;
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:100%;
+  margin-bottom:50px;
+}
+
+.project-image{
+  width:100%;
+  height:230px;
+  margin-bottom:20px;
+  background-color: grey;
+}
+
+.project-description{
+  width:250px;
+  height:120px;
+  background-color: grey;
+}
+
+/* Membership section styling */
+.membership{
+  margin-top:-30px;
+  width:100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.membership-title{
+  width:200px;
+  height:45PX;
+  background-color: grey;
+  margin-bottom:15px;
+}
+
+.membership-box{
+  background-color: grey;
+  width:100%;
+  height:250px;
+  display: flex;
+  justify-content: center;
+}
+
+.membership-container{
+  width:290px;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.membership-field-first{
+  margin-top:25px;
+}
+
+.membership-field{
+  margin-bottom:20px;
+  width: 100%;
+  height:55px;
+  background-color: black;
+}
+
+.membership-button{
+  margin-bottom:25px;
+  width: 100%;
+  height:55px;
+  background-color: black;
+  border-radius: 30px;
+}
+
+/* Footer section styling */
+footer{
+  width:100%;
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-container{
+  width:290px;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-text{
+  margin-top:15px;
+  background-color: black;
+  width:100%;
+  height:220px;
+}
+
+.footer-field{
+  width:100%;
+  height:270px;
+  background-color: white;
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+.footer-subtext{
+  width:90%;
+  height:20px;
+  background-color: white;
+  margin-bottom: 50px;
+}
