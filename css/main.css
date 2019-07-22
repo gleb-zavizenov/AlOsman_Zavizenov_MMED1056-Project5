@@ -1,3 +1,270 @@
+/********* Styling for tablet version *********/
+@media all and (min-width: 600px){
+  .hidden{
+    display: none;
+  }
+
+  main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  /* Header section styling */
+
+  .header-container{
+    width:566px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  header{
+    width:100%;
+    height:200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-logo{
+    width:180px;
+    height:90px;
+    background-color: black;
+  }
+
+  .header-hamburger{
+    display: none;
+  }
+
+  .header-left{
+    width:190px;
+    height:50px;
+    background-color: grey;
+  }
+
+  .header-right{
+    width:190px;
+    height:50px;
+    background-color: grey;
+  }
+
+  /* Hero section styling */
+  .hero{
+    height:200px;
+    width:100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .hero-container{
+    width:566px;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .hero-block{
+    width:50%;
+    height:100%;
+    display: flex;
+    align-items: center;
+  }
+
+  .hero-left{
+    justify-content: flex-flex-start;
+  }
+
+  .hero-right{
+    justify-content: flex-end;
+  }
+
+  .hero-block-inside{
+    background-color: grey;
+    width:270px;
+    height:80px;
+  }
+
+  /* Projects section styling */
+  .projects{
+    width:100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .projects-container{
+    width:566px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .projects-intro{
+    margin-top:60px;
+    width:100%;
+    height:200px;
+    background-color: grey;
+    margin-bottom: 60px;
+  }
+
+  .projects-title{
+    width:300px;
+    height:60px;
+    background-color:grey;
+    margin-bottom:25px;
+  }
+
+  .project-theme{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items:center;
+    margin-bottom:100px;
+    justify-content: space-between;
+  }
+
+  .project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:278px;
+    margin-bottom:50px;
+  }
+
+  .project-image{
+    width:100%;
+    height:230px;
+    margin-bottom:20px;
+    background-color: grey;
+  }
+
+  .project-description{
+    width:250px;
+    height:120px;
+    background-color: grey;
+  }
+
+  .project-outcome{
+    width:520px;
+    height:60px;
+    background-color: grey;
+    margin-top:10px;
+    margin-bottom: 110px;
+  }
+
+  /* Membership section styling */
+  .membership{
+    margin-top:-30px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: lightgrey;
+  }
+
+  .membership-title{
+    width:200px;
+    height:45PX;
+    background-color: white;
+    margin-bottom:15px;
+    margin-top:15px;
+  }
+
+  .membership-box{
+    background-color: lightgrey;
+    width:100%;
+    height:140px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .membership-container{
+    width:566px;
+    height:100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .membership-field{
+    margin-bottom:20px;
+    width: 180px;
+    height:60px;
+    background-color: black;
+  }
+
+  .membership-button{
+    margin-bottom:25px;
+    width: 180px;
+    height:60px;
+    background-color: black;
+    border-radius: 30px;
+  }
+
+  /* Footer section styling */
+  footer{
+    width:100%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-container{
+    width:566px;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-first-row{
+    margin-top:40px;
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .footer-text{
+    background-color: black;
+    width:278px;
+    height:215px;
+  }
+
+  .footer-map{
+    background-color: black;
+    width:278px;
+    height:215px;
+  }
+
+  .footer-field{
+    width:375px;
+    height:270px;
+    background-color: white;
+    margin-top:20px;
+    margin-bottom:20px;
+  }
+
+  .footer-subtext{
+    width:50%;
+    height:20px;
+    background-color: white;
+    margin-bottom: 50px;
+  }
+}
+
+
+/********* Styling for mobile version *********/
+@media all and (max-width:599px){
 .hidden{
   display: none;
 }
@@ -232,4 +499,5 @@ footer{
   height:20px;
   background-color: white;
   margin-bottom: 50px;
+}
 }
